@@ -28,7 +28,7 @@ img {
 .button:hover {
 	background-color: yellow;
 }
-.background {
+.poem {
 	background-image: url('images/lovebackground.jpeg'); 
 	background-color: blue;
 	background-repeat: no-repeat;
