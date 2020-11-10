@@ -6,6 +6,7 @@ img {
 }
 .heading {
 	text-align: center;
+	font-size: 5rem;
 }
 .content {
 	text-align: center;
@@ -24,14 +25,19 @@ img {
     align-self: flex-start;
     margin-bottom: 2rem;
 }
+.button:hover {
+	background-color: yellow;
+}
 .background {
 	background-image: url('images/lovebackground.jpeg'); 
 	background-color: blue;
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-width: 50%;
+	max-width: 100%;
 	padding: 6rem;
-	margin: 5rem;
+	align-content: center;
 	justify-content: center;
 	font-size: 5rem;
+	margin-left: auto;
+	margin-right: auto;
 }
